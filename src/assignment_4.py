@@ -415,5 +415,5 @@ spark_df_test_data_w_pred.write.format('jdbc').options(
       url='jdbc:mysql://gr5069.cgknx318yygb.us-east-1.rds.amazonaws.com/gr5069',
       driver='com.mysql.jdbc.Driver',
       dbtable='df_pits_races',
-      user='admin',
-      password='gr5069_demo').mode('overwrite').save() #mode can be override/append
+      user='',
+      password='').mode('overwrite').save() #mode can be override/append
