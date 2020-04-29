@@ -17,3 +17,16 @@
   (in [`deliverables/mlflow_screenshots`](deliverables/mlflow_screenshots))
   - Screenshot of the MLFlow detailed run page for question 10
   (in [`deliverables/mlflow_screenshots`](deliverables/mlflow_screenshots))
+
+# Assignment 4: Batch Model Processing and Data Visualisation with Tableau
+
+## Objectives
+* Learn to write data to a MySQL server hosted on Amazon RDS
+* Learn to access a MySQL server using Tableau and generate relevant visualisations
+
+**Notes:**
+1. [`src/visualisations`](src/visualisations) contains tableau files for the 
+visualisations
+2. Assignment 4 code is added to the back of a cloned Assignment 3 document, named 
+`assignment_4.ipynb` and `assignment_4.py`
+
