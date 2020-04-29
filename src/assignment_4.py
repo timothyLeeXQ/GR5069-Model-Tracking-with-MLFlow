@@ -392,7 +392,7 @@ df_test_data_w_pred = pd.concat([df_test_data, predictions_rounded], axis = 1)\
 
 # replace IDs with names
 df_test_data_w_pred = df_test_data_w_pred.merge(df_races_select[['circuitId', 'name']], on = 'circuitId')\
-  .merge(df_drivers[['driverId', 'full_name']], on = 'driverId')\
+  .merge(df_drivers[['driverId', 'full_name']], on = 'driverId', how = 'left')\
   .drop(['circuitId', 'driverId'], axis=1)\
   .rename(columns = {'name': 'circuit_name'})
 
